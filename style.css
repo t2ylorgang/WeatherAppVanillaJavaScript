@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#4158D0, #C850C0, #FFCC70);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degrees-container {
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+}
+
+.degrees-container span {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degrees {
+    font-size: 5em;
+}
