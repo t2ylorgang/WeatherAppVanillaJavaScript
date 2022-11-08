@@ -15,6 +15,10 @@ body {
     font-weight: 700;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 .location,
 .temperature {
     height: 30vh;
@@ -41,4 +45,8 @@ body {
 
 .degrees {
     font-size: 5em;
+}
+
+.temp-description {
+    font-size: 2em;
 }
